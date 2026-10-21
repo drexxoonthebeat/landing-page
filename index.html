@@ -172,10 +172,15 @@
   .channel-beats .led{background:var(--purple); box-shadow:0 0 6px var(--purple);}
   .channel-beats .channel-cta{color:var(--purple);}
 
-  /* Canal B — Recursos */
+  /* Canal C — Recursos */
   .channel-recursos:hover{border-color:var(--green);}
   .channel-recursos .led{background:var(--green); box-shadow:0 0 6px var(--green);}
   .channel-recursos .channel-cta{color:var(--green);}
+
+  /* Canal B — Remakes */
+  .channel-remakes:hover{border-color:var(--amber);}
+  .channel-remakes .led{background:var(--amber); box-shadow:0 0 6px var(--amber);}
+  .channel-remakes .channel-cta{color:var(--amber);}
 
   /* meter decorativo, sugiere consola de audio */
   .meter{
@@ -198,6 +203,14 @@
   .channel-beats .meter span:nth-child(5){height:30%;}
   .channel-beats .meter span:nth-child(6){height:65%; background:var(--purple); opacity:.6;}
   .channel-beats .meter span:nth-child(7){height:45%;}
+
+  .channel-remakes .meter span:nth-child(1){height:70%; background:var(--amber); opacity:.6;}
+  .channel-remakes .meter span:nth-child(2){height:35%;}
+  .channel-remakes .meter span:nth-child(3){height:90%; background:var(--amber); opacity:.9;}
+  .channel-remakes .meter span:nth-child(4){height:50%;}
+  .channel-remakes .meter span:nth-child(5){height:75%; background:var(--amber); opacity:.7;}
+  .channel-remakes .meter span:nth-child(6){height:40%;}
+  .channel-remakes .meter span:nth-child(7){height:60%; background:var(--amber); opacity:.8;}
 
   .chain-icon{
     display:flex;
@@ -257,9 +270,18 @@
     <div class="meter"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </a>
 
-  <!-- Canal B: Recursos -->
-  <a href="recursos.html" class="channel channel-recursos">
+  <!-- Canal B: Remakes -->
+  <a href="https://youtube.com/playlist?list=PLFluFc1KSEUs&si=Ww58Ks1mvsUhfU-9" target="_blank" rel="noopener" class="channel channel-remakes">
     <div class="channel-label"><span class="led"></span> Canal B</div>
+    <h2 class="channel-title">Remakes</h2>
+    <p class="channel-sub">Mis versiones de beats de canciones clásicas. La playlist completa en YouTube.</p>
+    <span class="channel-cta">Ver playlist <span class="arrow">↗</span></span>
+    <div class="meter"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  </a>
+
+  <!-- Canal C: Recursos -->
+  <a href="recursos.html" class="channel channel-recursos">
+    <div class="channel-label"><span class="led"></span> Canal C</div>
     <h2 class="channel-title">Recursos</h2>
     <p class="channel-sub">Descarga mis Recursos De Producción Musical completando 3 pasos rápidos.</p>
     <span class="channel-cta">Entrar <span class="arrow">→</span></span>
@@ -270,7 +292,7 @@
     </div>
   </a>
 
-  <footer>2 canales disponibles</footer>
+  <footer>3 canales disponibles</footer>
 </div>
 
 </body>
